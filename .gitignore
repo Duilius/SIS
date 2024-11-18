@@ -1,0 +1,5 @@
+# Ignorar el entorno virtual de Python
+venv/
+.venv/
+
+BACKUP/
