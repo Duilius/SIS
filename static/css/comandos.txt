@@ -1,0 +1,9 @@
+python -m venv env
+env\Scripts\activate
+
+python -m pip install --upgrade pip
+pip install -r sis_requirements.txt
+
+uvicorn scripts.py.sis_index:app --reload --port 3000
+
+pip show opencv-python
